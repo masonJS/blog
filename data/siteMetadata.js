@@ -2,8 +2,8 @@
 const siteMetadata = {
   title: 'haruLife blog',
   author: 'haru',
-  headerTitle: '하루살이 블로그',
-  description: 'A blog created with Next.js and Tailwind.css',
+  headerTitle: '개발 블로그',
+  description: '오늘 하루를 복기해보자.',
   language: 'ko-KR',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog-eight-neon-51.vercel.app',
@@ -66,10 +66,10 @@ const siteMetadata = {
     },
   },
   search: {
-    provider: 'kbar', // kbar or algolia
-    kbarConfig: {
-      searchDocumentsPath: 'search.json', // path to load documents to search
-    },
+    // provider: 'kbar', // kbar or algolia
+    // kbarConfig: {
+    //   searchDocumentsPath: 'search.json', // path to load documents to search
+    // },
     // provider: 'algolia',
     // algoliaConfig: {
     //   // The application ID provided by Algolia
